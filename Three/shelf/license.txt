@@ -1,0 +1,11 @@
+Model Information:
+* title:	Food Storage for Underground Bunker
+* source:	https://sketchfab.com/3d-models/food-storage-for-underground-bunker-fda95a3994b649e48d2115218a93507f
+* author:	m31odyr (https://sketchfab.com/m31odyr)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Food Storage for Underground Bunker" (https://sketchfab.com/3d-models/food-storage-for-underground-bunker-fda95a3994b649e48d2115218a93507f) by m31odyr (https://sketchfab.com/m31odyr) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
