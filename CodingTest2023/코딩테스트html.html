@@ -9,22 +9,51 @@
 <body>
     <h1 id="answer"></h1>
     <script>
+        let answer = document.getElementById("answer")
 
-        let h1_answer = document.getElementById("answer")
-        function solution(i, j, k) {
-            var answer = 0;
+            function solution(numbers) {
+                var answer = '';
+                
+                let element_arr = [];
+                
+                let num = 0;
 
-            for(let i=i;i<=j;i++){
-                let string = i+"";
-                let arr = string.split();
-                console.log(arr);
+                let old_numbers = numbers
+                
+                while(num ==numbers.length){
+                    let num=0;
+                for(let i=0; i<numbers.length-1;i++){
+                    
+                    
+                    let a = numbers[i]+""
+                    let b = numbers[i+1]+""
+                    
+                    if((a+b)<(b+a)){
+                        let temp = numbers[i]
+                        numbers[i]=numbers[i+1]
+                        numbers[i+1] = temp
+                    }
+                    
+                }
+                    for(let j=0;j<numbers.length;j++){
+                        if(old_numbers[i]==numbers[i]){
+                            num++
+                        }
+                    }
+                    old_numbers=numbers
+                }
+
+                
+                for(let i=0;i<numbers.length;i++){
+                    answer+=numbers[i]
+                }
+                
+                return old_numbers;
             }
 
-            return answer;
-        }
+            
+            answer.innerText = solution([3,30,34,5,9])
 
-
-        solution(1,10,1)
     </script>
 </body>
 </html>
